@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MARSDK_ios_Example' do
+  pod 'MARSDK_ios', :path => '../'
+
+  target 'MARSDK_ios_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
