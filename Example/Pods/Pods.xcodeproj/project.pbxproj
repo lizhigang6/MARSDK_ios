@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F41EC0628101E7A002C93CA /* MARSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F41EC0528101E7A002C93CA /* MARSDKCore.framework */; };
 		18CC17A7CB613E9D0BBEE754F0BE93A2 /* Pods-MARSDK_ios_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5105E4628C4CA99D6F0C62DE73B341A4 /* Pods-MARSDK_ios_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B392B54E87BF5C65455D0166D42CB9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		36FC4CFBED10B211EDC18D850A38B302 /* MARSDK_ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D949F707CC87C7B3CD83A046CB5E8EA7 /* MARSDK_ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,8 +41,9 @@
 		0436CC9E73ACD3BB78E75DCD20D9EE63 /* Pods-MARSDK_ios_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MARSDK_ios_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		09A6006AC8C1630D97B96B5078BD0891 /* Pods-MARSDK_ios_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MARSDK_ios_Example-umbrella.h"; sourceTree = "<group>"; };
 		0A7831FFF84A6C8027031688772F2BA6 /* Pods-MARSDK_ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MARSDK_ios_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0C274781FD8CE1535F0E9B9AB8960481 /* MARSDK_ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MARSDK_ios.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0C274781FD8CE1535F0E9B9AB8960481 /* MARSDK_ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MARSDK_ios.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0E8533C43E223C5A09E2144EBF48AE97 /* Pods-MARSDK_ios_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MARSDK_ios_Tests.modulemap"; sourceTree = "<group>"; };
+		0F41EC0528101E7A002C93CA /* MARSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MARSDKCore.framework; path = ../../MARSDK_ios/Classes/MARSDKCore.framework; sourceTree = "<group>"; };
 		1424075D75B4AF4D96C66EDA19ECAC8E /* MARSDK_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MARSDK_ios.debug.xcconfig; sourceTree = "<group>"; };
 		16B3E789F0A959F9A9F3077EEC118E69 /* Pods-MARSDK_ios_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MARSDK_ios_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1A9A89E55FA4C15473EB802ACC580602 /* Pods-MARSDK_ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MARSDK_ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -55,16 +57,16 @@
 		6D347CC73300DF3AED6432DD5BC08456 /* Pods-MARSDK_ios_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MARSDK_ios_Example-dummy.m"; sourceTree = "<group>"; };
 		7277FBBBA4AB299C61E4EBE373461FA6 /* Pods-MARSDK_ios_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MARSDK_ios_Example-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73433171206DFC45CB99B9112A93F361 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		73433171206DFC45CB99B9112A93F361 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		75337D5419AC31791AEA98C2B2924123 /* MARSDK_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MARSDK_ios.release.xcconfig; sourceTree = "<group>"; };
 		796A550989EEE31ADD06FD7A6C17CF54 /* Pods-MARSDK_ios_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MARSDK_ios_Example"; path = Pods_MARSDK_ios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86818B85BB603D82CB5F1DE1F5C4E294 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MARSDK_ios/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		88EB84C6E5D6377C4C439520E6D09726 /* MARSDK_ios-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MARSDK_ios-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CB9EE98F47352D5F10B7FD01C02D44F5 /* Pods-MARSDK_ios_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MARSDK_ios_Tests-Info.plist"; sourceTree = "<group>"; };
 		D738C6D1D682B3D791B356788415348D /* Pods-MARSDK_ios_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MARSDK_ios_Tests"; path = Pods_MARSDK_ios_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D949F707CC87C7B3CD83A046CB5E8EA7 /* MARSDK_ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MARSDK_ios-umbrella.h"; sourceTree = "<group>"; };
-		DDDD44D0FA0AA5586DD9A9833D47B9EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DDDD44D0FA0AA5586DD9A9833D47B9EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E1345C2F11479502468FF921242BC73C /* MARSDK_ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MARSDK_ios.modulemap; sourceTree = "<group>"; };
 		E86CE19025A00D1A483969A94832C780 /* MARSDK_ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MARSDK_ios-prefix.pch"; sourceTree = "<group>"; };
 		F6EBC26B8814CF125C424D599FC63F16 /* Pods-MARSDK_ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MARSDK_ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B392B54E87BF5C65455D0166D42CB9E /* Foundation.framework in Frameworks */,
+				0F41EC0628101E7A002C93CA /* MARSDKCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +167,7 @@
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				0F41EC0528101E7A002C93CA /* MARSDKCore.framework */,
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
@@ -655,8 +659,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
